@@ -109,3 +109,11 @@
 ![test](images/test.png)
 
 用户答完题之后，就可以提交答案了。提交之后，管理员就可以在后台看到这个用户的答题情况。
+
+## 鸣谢
+
+本项目的前端页面使用了以下开源项目，特此感谢：
+
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [FontAswome](https://github.com/FortAwesome/Font-Awesome)
+* [Prism](https://github.com/PrismJS/prism)
