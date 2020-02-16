@@ -1,0 +1,130 @@
+{
+  "organizations": [
+    {
+      "id": "O1",
+      "label": "最高管理层",
+      "type": 0,
+      "children": [
+        {
+          "id": "O2",
+          "label": "系统管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11"
+        }, {
+          "id": "O3",
+          "label": "文章管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11",
+          "children": [
+            {
+              "id": "O10",
+              "label": "通知组",
+              "type": 1,
+              "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "createTime": "2020-01-01 11:11:11",
+              "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "lModTime": "2020-01-01 11:11:11"
+            }, {
+              "id": "O11",
+              "label": "新闻组",
+              "type": 1,
+              "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "createTime": "2020-01-01 11:11:11",
+              "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "lModTime": "2020-01-01 11:11:11"
+            }, {
+              "id": "O12",
+              "label": "首页管理组",
+              "type": 1,
+              "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "createTime": "2020-01-01 11:11:11",
+              "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "lModTime": "2020-01-01 11:11:11"
+            }
+          ]
+        }, {
+          "id": "O4",
+          "label": "测试管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11",
+          "children": [
+            {
+              "id": "O13",
+              "label": "能力测试组",
+              "type": 1,
+              "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "createTime": "2020-01-01 11:11:11",
+              "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "lModTime": "2020-01-01 11:11:11"
+            }, {
+              "id": "O14",
+              "label": "招聘测试组",
+              "type": 1,
+              "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "createTime": "2020-01-01 11:11:11",
+              "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "lModTime": "2020-01-01 11:11:11"
+            }, {
+              "id": "O15",
+              "label": "其它测试组",
+              "type": 1,
+              "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "createTime": "2020-01-01 11:11:11",
+              "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+              "lModTime": "2020-01-01 11:11:11"
+            }
+          ]
+        }, {
+          "id": "O5",
+          "label": "题库管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11"
+        }, {
+          "id": "O6",
+          "label": "审核管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11"
+        }, {
+          "id": "O7",
+          "label": "类型管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11"
+        }, {
+          "id": "O8",
+          "label": "口令管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11"
+        }, {
+          "id": "O9",
+          "label": "素材管理组",
+          "type": 1,
+          "creator": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "createTime": "2020-01-01 11:11:11",
+          "lModifier": { "id": "O1", "name": "Administrator", "avatar": "/static/defaults/male.png" },
+          "lModTime": "2020-01-01 11:11:11"
+        }
+      ]
+    }
+  ]
+}

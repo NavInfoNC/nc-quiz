@@ -1,0 +1,746 @@
+{
+  "permissions": [
+    {
+      "id": "G1",
+      "label": "用户管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对用户进行管理的权限组，包括用户，用户组以及前后台用户管理等。",
+      "children": [
+        {
+          "id": "G1-1",
+          "label": "权限分配权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "设置用户是否有权限进行权限分配。",
+          "children": [
+            {
+              "id": "G1-1P1",
+              "label": "允许修改其它用户权限",
+              "type": 1,
+              "body": "permission",
+              "desc": "如果启用该权限，则用户可以对自己所属的组织架构的下层用户的权限进行操作。\n只能赋予自己所拥有的权限，且只能取消自己赋予的权限或者是自己下层用户所赋予的权限。"
+            }, {
+              "id": "G1-1P2",
+              "label": "允许查看其它用户权限",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G1-2",
+          "label": "组织架构权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "设置用户是否有权限进行组织架构的浏览与修改。",
+          "children": [
+            {
+              "id": "G1-2P1",
+              "label": "允许修改组织架构",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-2P2",
+              "label": "允许删除组织架构",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-2P3",
+              "label": "允许查看组织架构",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G1-3",
+          "label": "用户组权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "设置用户是否有权限进行用户组的浏览与修改。",
+          "children": [
+            {
+              "id": "G1-3P1",
+              "label": "允许修改用户组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-3P2",
+              "label": "允许删除用户组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-3P3",
+              "label": "允许查看用户组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G1-4",
+          "label": "前台用户权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "设置用户是否有权限进行前台用户的相关操作。",
+          "children": [
+            {
+              "id": "G1-4P1",
+              "label": "允许修改前台注册方式",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-4P2",
+              "label": "允许添加前台用户",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-4P3",
+              "label": "允许删除前台用户",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-4P4",
+              "label": "允许禁用前台用户",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-4P5",
+              "label": "允许重置前台用户密码",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-4P6",
+              "label": "允许修改前台用户分组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-4P7",
+              "label": "允许删除前台用户分组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G1-5",
+          "label": "后台账户权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "设置用户是否有权限进行后台账户的相关操作。",
+          "children": [
+            {
+              "id": "G1-5P1",
+              "label": "允许添加后台账户",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-5P2",
+              "label": "允许重置后台账户密码",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-5P3",
+              "label": "允许删除后台账户",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G1-5P4",
+              "label": "允许禁用后台账户",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "G2",
+      "label": "文章管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对文章进行管理的权限组，包括文章的编辑与发布，首页管理等。",
+      "children": [
+        {
+          "id": "G2-1",
+          "label": "文章编辑权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G2-1P1",
+              "label": "允许添加，修改，删除自己的文章",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G2-1P2",
+              "label": "允许编辑别人的文章",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G2-1P3",
+              "label": "允许删除别人的文章",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G2-2",
+          "label": "文章发布权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G2-2P1",
+              "label": "允许发布和撤回自己发布的文章",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G2-2P2",
+              "label": "允许撤回别人发布的文章",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G2-3",
+          "label": "文章分类管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G2-3P1",
+              "label": "允许修改文章分类",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G2-3P2",
+              "label": "允许删除文章分类",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G2-4",
+          "label": "首页定制权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G2-4P1",
+              "label": "允许修改首页广告牌",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G2-4P2",
+              "label": "允许修改首页推荐测验",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "G3",
+      "label": "测验管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对测验进行管理的权限组，包括测验的编辑与发布，成绩浏览等。",
+      "children": [
+        {
+          "id": "G3-1",
+          "label": "测验编辑权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G3-1P1",
+              "label": "允许添加，修改，删除自己的测验",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G3-1P2",
+              "label": "允许修改别人的测验",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G3-1P3",
+              "label": "允许删除别人的测验",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G3-2",
+          "label": "测验发布权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G3-2P1",
+              "label": "允许发布和停止自己发布的测验",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G3-2P2",
+              "label": "允许停止别人发布的测验",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G3-3",
+          "label": "测验查看权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G3-3P1",
+              "label": "允许查看测验列表",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G3-3P2",
+              "label": "允许查看未发布的测验列表",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G3-3P3",
+              "label": "允许查看前台用户测验结果",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]      
+    }, {
+      "id": "G4",
+      "label": "题库管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对题库进行管理的权限组，包括题目的编辑与发布，题库的导入导出等。",
+      "children": [
+        {
+          "id": "G4-1",
+          "label": "题目编辑权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G4-1P1",
+              "label": "允许添加，修改，删除自己的题目",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G4-1P2",
+              "label": "允许修改别人的题目",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G4-1P3",
+              "label": "允许删除别人的题目",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G4-2",
+          "label": "题库导入导出权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G4-2P1",
+              "label": "允许导入题库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G4-2P2",
+              "label": "允许导出题库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G4-3",
+          "label": "题库浏览权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G4-3P1",
+              "label": "允许浏览整个题库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]      
+    }, {
+      "id": "G5",
+      "label": "审核管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对审核进行管理的权限组，包括题目审核，阅卷管理等。",
+      "children": [
+        {
+          "id": "G5-1",
+          "label": "题目审核权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G5-1P1",
+              "label": "允许审核题目",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G5-2",
+          "label": "阅卷权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G5-2P1",
+              "label": "允许阅卷",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G5-3",
+          "label": "得分审核权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G5-3P1",
+              "label": "允许修改考生得分",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G5-4",
+          "label": "高级审核权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G5-4P1",
+              "label": "允许分配阅卷人",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G5-4P2",
+              "label": "允许设定匿名阅卷模式",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G5-4P3",
+              "label": "允许上传阅卷脚本",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]      
+    }, {
+      "id": "G6",
+      "label": "口令管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对口令进行管理的权限组，包括口令的生成与使用等。",
+      "children": [
+        {
+          "id": "G6-1",
+          "label": "口令组管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G6-1P1",
+              "label": "允许添加，修改，删除自己的口令组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G6-1P2",
+              "label": "允许修改别人的口令组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G6-1P3",
+              "label": "允许删除别人的口令组",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G6-2",
+          "label": "口令使用权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G6-3P1",
+              "label": "允许使用一次性口令",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G6-3P2",
+              "label": "允许使用无限制口令",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]      
+    }, {
+      "id": "G7",
+      "label": "类型管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对类型进行管理的权限组，包括测验类型，题目标签等。",
+      "children": [
+        {
+          "id": "G7-1",
+          "label": "测验分类管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G7-1P1",
+              "label": "允许添加分类",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G7-1P2",
+              "label": "允许修改分类",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G7-1P3",
+              "label": "允许删除分类",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G7-1P4",
+              "label": "允许查看分类详细信息",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G7-2",
+          "label": "题目标签管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G7-2P1",
+              "label": "允许添加标签",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G7-2P2",
+              "label": "允许修改标签",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G7-2P3",
+              "label": "允许删除标签",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G7-2P4",
+              "label": "允许查看标签详细信息",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "G8",
+      "label": "素材管理权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对素材进行管理的权限组，包括图像，多媒体等素材的管理。",
+      "children": [
+        {
+          "id": "G8-1",
+          "label": "图库管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G8-1P1",
+              "label": "允许创建，修改自己的图库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G8-1P2",
+              "label": "允许删除图库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G8-2",
+          "label": "乐库管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G8-2P1",
+              "label": "允许创建，修改自己的乐库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G8-2P2",
+              "label": "允许删除乐库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }, {
+          "id": "G8-3",
+          "label": "媒体库管理权限",
+          "type": 0,
+          "header": "genreal",
+          "desc": "",
+          "children": [
+            {
+              "id": "G8-3P1",
+              "label": "允许创建，修改自己的媒体库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }, {
+              "id": "G8-3P2",
+              "label": "允许删除媒体库",
+              "type": 1,
+              "body": "permission",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "G9",
+      "label": "站内信权限",
+      "type": 0,
+      "header": "genreal",
+      "desc": "对站内信相关权限管理的权限组，比如群发站内信等。",
+      "children": [
+        {
+          "id": "G9P1",
+          "label": "允许给前台用户组发站内信",
+          "type": 1,
+          "body": "permission",
+          "desc": ""
+        }, {
+          "id": "G9P2",
+          "label": "允许给后台账户组发站内信",
+          "type": 1,
+          "body": "permission",
+          "desc": ""
+        }, {
+          "id": "G9P3",
+          "label": "允许给所有前台用户发站内信",
+          "type": 1,
+          "body": "permission",
+          "desc": ""
+        }, {
+          "id": "G9P4",
+          "label": "允许给所有后台账户发站内信",
+          "type": 1,
+          "body": "permission",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}
